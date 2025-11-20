@@ -10,6 +10,9 @@
       <topicref type="topic" id="45980755445874" build="ALL" modified="2025-11-20T15:37:53.792Z" icon="0" href="Test">
         <caption translate="true">Test</caption>
       </topicref>
+      <topicref type="topic" id="459815291116825" build="ALL" modified="2025-11-20T15:43:53.663Z" icon="0" href="Test2">
+        <caption translate="true">Test2</caption>
+      </topicref>
       <topicref type="topic" id="43108521768920" build="ALL" modified="2018-01-24T14:01:38.959Z" icon="0" href="1_2-Work-Environment-Checks">
         <caption translate="true">Work Environment Checks</caption>
       </topicref>
