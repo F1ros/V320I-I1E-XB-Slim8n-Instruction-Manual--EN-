@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.1 Emergency Stop</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">Emergency Stop</para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:10px;">When the <text style="font-weight:bold;">[EMERGENCY STOP]</text> switch is pressed, the machine enters the Emergency Stop condition.</para>
+    <para styleclass="Normal">The machine also enters the Emergency Stop condition in the following cases:</para>
+    <para styleclass="Normal"></para>
+    <list id="2" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="line-height:1.50; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="line-height:1.50;">When the feed axis exceeds the stroke limit.</li>
+      <li styleclass="Normal" style="line-height:1.50;">When an abnormality is detected in the machine controller or servomotor.</li>
+      <li styleclass="Normal" style="line-height:1.50;">When an abnormality is detected in the hydraulic unit.</li>
+      <li styleclass="Normal" style="line-height:1.50;">When the power outage detection unit is activated.</li>
+    </list>
+    <para styleclass="Normal" style="line-height:1.50;"></para>
+    <para styleclass="Normal" style="line-height:1.50;">Following an Emergency Stop condition, all commands are stopped and the following operations are performed:</para>
+    <list id="3" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="line-height:1.50; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="line-height:1.50;">Feeding of each axis is stopped immediately.</li>
+      <li styleclass="Normal" style="line-height:1.50;">Spindle rotation is stopped immediately.</li>
+      <li styleclass="Normal" style="line-height:1.50;">Spindle orientation is released.</li>
+      <li styleclass="Normal" style="line-height:1.50;">Spindle Tool is clamped.</li>
+      <li styleclass="Normal" style="line-height:1.50;">Spindle rotational speed setting (S command) is reset.</li>
+      <li styleclass="Normal" style="line-height:1.50;">Spindle temperature controller will be switched OFF.</li>
+      <li styleclass="Normal" style="line-height:1.50;">All coolant motors will be switched OFF.</li>
+      <li styleclass="Normal" style="line-height:1.50;">Tool change operation is stopped immediately.</li>
+      <li styleclass="Normal" style="line-height:1.50;">Tool search (T command) is cancelled.</li>
+      <li styleclass="Normal" style="line-height:1.50;">Hydraulic pressure supply is stopped.</li>
+      <li styleclass="Normal" style="line-height:1.50;">NC control is reset.</li>
+      <li styleclass="Normal" style="line-height:1.50;">All solenoid valves (Pneumatic and Hydraulic) are de-energized.</li>
+    </list>
+    <para styleclass="Normal">When an Automatic Tool Changer (ATC) or Tool magazine operation is being performed, operation stops immediately, even in mid-motion.</para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.3 NC Function Switches</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">NC Function Switches</para>
+    </header>
+    <para styleclass="Normal">Four NC function switches <text style="font-weight:bold;">[SINGLE BLOCK]</text>, <text style="font-weight:bold;">[BLOCK SKIP]</text>, <text style="font-weight:bold;">[DRY RUN]</text> and <text style="font-weight:bold;">[OPTIONAL STOP]</text> are allocated to the main operation panel. When a switch is pressed, the corresponding function is turned ON (switch lamp illuminated). When the switch is pressed again, the function is turned OFF (switch lamp extinguished).</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="4" colcount="2" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td colspan="2" style="height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[SINGLE BLOCK] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:20%; height:6px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:6px; margin-bottom:6px;"><image src="NC switches_15.jpg" scale="4.00%" width="72" height="72" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; height:30px;">
+          <para styleclass="Normal" style="margin-right:3px; margin-left:3px;"><text style="font-size:10pt;">This switch turns the Single Block mode ON/OFF. When the Single Block mode is ON, programs are executed in single blocks and operation stops after each block in the program is executed. Operation can be continued by pressing the </text><text style="font-size:10pt; font-weight:bold;">[CYCLE START]</text><text style="font-size:10pt;"> switch.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td colspan="2" style="height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[BLOCK SKIP] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:397px; height:6px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:6px; margin-bottom:6px;"><image src="NC switches_16.jpg" scale="4.00%" width="72" height="72" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; height:30px;">
+          <para styleclass="Normal" style="margin-right:3px; margin-left:3px;"><text style="font-size:10pt;">This switch turns the Block Skip mode ON/OFF. When the Block Skip mode is ON, blocks in the program with a “/ ” (slash) at the beginning are ignored.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="6" colcount="3" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td colspan="3" style="width:2%; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[DRY RUN] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="3" style="vertical-align:middle; width:20%; height:30px;">
+          <para styleclass="Normal" style="text-align:center;"><image src="NC switches_17.jpg" scale="4.00%" width="72" height="72" styleclass="Image Caption"></image></para>
+        </td>
+        <td colspan="2" style="width:80%; height:35px; border-bottom:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">This switch turns the Dry Run mode ON/OFF. Dry Run refers to test-running the machine for the purpose of checking programs. When this mode is ON, the Dry Run feed replaces the cutting feed rate specified in the program.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:2%; height:30px; border-top:none; border-right:none; border-bottom:none;">
+          <para styleclass="Normal" style="text-align:center; margin-right:2px; margin-left:2px;"><image src="NC switches_1.jpg" scale="5.10%" width="24" height="24" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; height:30px; border-top:none; border-bottom:none; border-left:none;">
+          <para styleclass="Normal" style="margin-right:3px; margin-left:3px;"><text style="font-size:10pt;">To enable this mode, this switch must be turned ON before the program is started. To turn ON this mode during program operation, turn ON the </text><text style="font-size:10pt; font-weight:bold;">[SINGLE BLOCK]</text><text style="font-size:10pt;"> switch, then turn ON the </text><text style="font-size:10pt; font-weight:bold;">[DRY RUN]</text><text style="font-size:10pt;"> function after the single block is executed.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:2%; height:30px; border-top:none; border-right:none;">
+          <para styleclass="Normal" style="text-align:center; margin-right:2px; margin-left:2px;"><image src="NC switches_1.jpg" scale="5.10%" width="24" height="24" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; height:30px; border-top:none; border-left:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">When the </text><text style="font-size:10pt; font-weight:bold;">[DRY RUN]</text><text style="font-size:10pt;"> switch is turned ON while performing measurement using the Automatic Workpiece Measuring unit or the Tool Length Sensor unit, accurate measurement results cannot be obtained. Therefore, make sure to disable the Dry Run mode during measurement.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td colspan="3" style="height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[OPTIONAL STOP] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:20%; height:6px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:6px; margin-bottom:6px;"><image src="NC switches_18.jpg" scale="5.00%" width="90" height="91" styleclass="Image Caption"></image></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:80%; height:30px;">
+          <para styleclass="Normal" style="margin-right:3px; margin-left:3px;"><text style="font-size:10pt;">This switch turns the Optional Stop mode ON/OFF. Turning the Optional Stop mode ON enables operation to be stopped by M01 codes in the program. The </text><text style="font-size:10pt; font-weight:bold;">[CYCLE START]</text><text style="font-size:10pt;"> switch blinks while the operation is suspended by M01. Operation can be continued by pressing the </text><text style="font-size:10pt; font-weight:bold;">[CYCLE START]</text><text style="font-size:10pt;"> switch.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.4.1 When Alarm Is Triggered</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">When Alarm Is Triggered</para>
+    </header>
+    <para styleclass="Normal">Confirm the following points and contact your Makino service representative.</para>
+    <para styleclass="Normal"></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="line-height:1.50; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="line-height:1.50;">Time when Alarm was triggered.</li>
+      <li styleclass="Normal" style="line-height:1.50;">Machine status when Alarm was triggered.</li>
+      <li styleclass="Normal">Alarm code details.</li>
+    </list>
+  </body>
+</topic>

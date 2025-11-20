@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>1 Overview</title>
+  <body>
+    <header>
+      <para styleclass="Heading2">Overview</para>
+    </header>
+    <para styleclass="Normal">This chapter describes troubleshooting procedures for each unit and explains typical problem that the machine might encounter. Typical problems can be roughly divided into three types, namely Mechanical, Electrical &amp; Control and Operation Error. In addition, compound problems involving the three types may also occur. If the machine encounters trouble, identify the cause of the trouble and take appropriate action.</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="margin-bottom:10px;">For unclear points on troubles or in the following cases, contact your Makino service representative.</para>
+    <list id="4" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:10px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;">You have reset the Alarm and taken the corrective measures described in this manual, but the cause of trouble is not eliminated.</li>
+      <li styleclass="Normal">Trouble not described in this manual has occurred and the recovery procedure to be performed is not known.</li>
+    </list>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">Prior to Work</text></para>
+    <list id="5" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:10px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;">Read and understand Chapter 1 Safety prior to troubleshooting to ensure safe working conditions.</li>
+      <li styleclass="Normal" style="margin-bottom:10px;">The machine must be handled by trained personnel.</li>
+      <li styleclass="Normal" style="margin-bottom:10px;">Wear appropriate safety equipment.</li>
+      <li styleclass="Normal" style="margin-bottom:10px;">Ensure the machine surrounding area is sufficient illuminated.</li>
+      <li styleclass="Normal" style="margin-bottom:10px;">Place “Under Inspection / Maintenance” Warning signs at the appropriate locations, including the main operation panel to notify personnel that works is in progress to prevent others from inadvertently operating the machine while work is being performed.</li>
+      <li styleclass="Normal" style="margin-bottom:10px;">Prior to maintenance / servicing work, perform troubleshooting thoroughly and be aware as much as possible of the condition in which machine operation was interrupted (machine trouble occurred).</li>
+      <li styleclass="Normal" style="margin-bottom:10px;">In the following events, leave the machine as it is and contact your Makino service representative. Do not attempt to correct the problem yourself.</li>
+    </list>
+    <list id="6" type="ul" listtype="bullet" formatstring="&#45;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="0" styleclass="Normal" style="margin-bottom:10px; margin-left:19px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px; margin-left:19px;">When the Tool / Tool pot is not clamped correctly (Tool / Tool pot may fall off the machine).</li>
+      <li styleclass="Normal" style="margin-left:19px;">When the nature / cause of the machine problem is not apparent.</li>
+    </list>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">During Work</text></para>
+    <para styleclass="Normal" style="margin-bottom:10px;">Observe all safety precautions and exercise extreme caution, especially when operating under the following conditions. Careless operation may result in serious injury, death and / or damage to the machine. Take adequate precautions to ensure the safety of personnel operating the machine.</para>
+    <list id="7" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="line-height:1.20; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="line-height:1.20;">When the power must remain ON.</li>
+      <li styleclass="Normal" style="line-height:1.20;">When it is necessary to enter the machine / Tool magazine.</li>
+      <li styleclass="Normal" style="line-height:1.20;">When safety devices such as Interlock system must be released.</li>
+    </list>
+  </body>
+</topic>

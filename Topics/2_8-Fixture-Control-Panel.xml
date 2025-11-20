@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.8 Fixture Control Panel</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">Fixture Control Panel</para>
+    </header>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="2" colcount="2" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td colspan="2" style="width:2%; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[FIXTURE CLAMP] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:30%; height:10px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:6px; margin-bottom:6px;"><image src="NC switches_57.jpg" scale="4.15%" width="77" height="77" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; height:35px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:5px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Press this button to clamp the fixture. By pressing this button, the sequence set in Fixture Sequence Clamp Screen is executed. When fixture clamped, the internal lamp lights up.</text></para>
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Applicable in Manual mode only.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="2" colcount="2" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td colspan="2" style="width:2%; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[FIXTURE UNCLAMP] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:30%; height:10px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:6px; margin-bottom:6px;"><image src="NC switches_58.jpg" scale="4.15%" width="77" height="77" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; height:35px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:5px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Press this button to unclamp the fixture. By pressing this button, the sequence set in Fixture Sequence Unclamp Screen is executed. When fixture unclamped, the internal lamp lights up.</text></para>
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Applicable in Manual mode only.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="2" colcount="2" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td colspan="2" style="width:2%; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[SETUP FINISH] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:30%; height:10px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:6px; margin-bottom:6px;"><image src="NC switches_61.jpg" scale="4.15%" width="77" height="77" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; height:35px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:5px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">After operator setup the workpiece and press Cycle Start door closes </text><text styleclass="" style="font-family:Symbol; font-size:11pt; color:#000000;">®</text><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;"> fixture clamps </text><text styleclass="" style="font-family:Symbol; font-size:11pt; color:#000000;">®</text><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;"> pallet ready is made ON. At this point the Lamp lights up indicating the work setup is finished. And wait for machining to finish on Table side. Once machining finished Pallet Change starts. At this point the Lamp turns OFF</text><text styleclass="" style="font-family:Arial; font-size:11pt; color:#000000;">. </text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="2" colcount="2" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td colspan="2" style="width:2%; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[SEAT CHECK OK] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:30%; height:10px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:6px; margin-bottom:6px;"><image src="NC switches_60.jpg" scale="4.15%" width="77" height="77" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; height:35px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:5px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">After fixture clamp and seat check is OK the Lamp lights up. Applicable in machine with seat check option.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="2" colcount="2" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td colspan="2" style="width:2%; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[AUTO/MANUAL] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:30%; height:10px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:6px; margin-bottom:6px;"><image src="NC switches_59.jpg" scale="4.15%" width="77" height="77" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; height:35px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:5px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Work Setup Side mode is selected by this button. By pressing this button Auto or Manual mode is selected. When this button internal lamp lights up it is in Manual mode. When lamp is off it is in Auto mode. &#160;up.</text></para>
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">To run Auto Cycle select this button to Auto mode.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="2" colcount="2" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td colspan="2" style="width:2%; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[WASH GUN ENABLE] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:30%; height:10px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:6px; margin-bottom:6px;"><image src="NC switches_62.jpg" scale="4.15%" width="77" height="77" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; height:35px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:5px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Push this button to ON/OFF Work Wash Gun. When Work Wash Gun is ON the internal lamp lights up. Push this button to turn ON Work Wash Gun. To turn OFF press this button again. </text></para>
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Applicable in machine with Work Wash Gun option</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

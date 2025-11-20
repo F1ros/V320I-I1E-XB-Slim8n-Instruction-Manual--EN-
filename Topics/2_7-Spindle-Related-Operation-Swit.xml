@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.7 Spindle Related Operation Switches</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">Spindle Related Operation Switches</para>
+    </header>
+    <para styleclass="Normal" style="margin-top:8px;"><table styleclass="Default" rowcount="1" colcount="2" style="width:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:112px; border-right:none;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:0px; margin-left:8px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><image src="Danger symbol no text.png" scale="16.00%" width="42" height="37" styleclass="Image Caption"></image></para>
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:8px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#231f20;">WARNING</text></para>
+        </td>
+        <td style="vertical-align:middle; width:591px; border-left:none;">
+          <list id="2" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:4px; margin-bottom:3px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none; font-family:Symbol; font-size:10pt; color:#000000;">
+            <li styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:4px; margin-bottom:3px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="Normal" style="font-size:10pt; font-weight:bold;">Do not start the Spindle without clamping a Tool in it. Failure to observe this precaution may result in a breakdown of the machine.</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-top:8px;"></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="6" colcount="3" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td colspan="3" style="width:65%; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[SPINDLE START] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:24%; height:6px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><image src="NC switches_32.jpg" scale="4.00%" width="72" height="72" styleclass="Image Caption"></image></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:65%; height:30px; border-bottom:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">Turning ON this switch while the Spindle is stopped or during Spindle orientation starts the Spindle in the clockwise direction. This switch is valid regardless of the current operation mode.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:1%; height:30px; border-top:none; border-right:none;">
+          <para styleclass="Normal" style="text-align:center;"><image src="NC switches_2.jpg" scale="5.00%" width="22" height="23" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; width:65%; border-top:none; border-left:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">Pressing the </text><text style="font-size:10pt; font-weight:bold;">[SPINDLE START]</text><text style="font-size:10pt;"> switch will start the Spindle running in the previous direction spun.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="3" style="vertical-align:middle; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[SPINDLE STOP] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:24%; height:3px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:6px; margin-bottom:6px;"><image src="NC switches_33.jpg" scale="4.00%" width="72" height="72" styleclass="Image Caption"></image></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:70%; height:30px; border-bottom:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">Pressing this switch stops the Spindle. This switch is valid regardless of the current operation mode.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:1%; height:30px; border-top:none; border-right:none;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><image src="NC switches_1.jpg" scale="5.00%" width="24" height="24" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; border-top:none; border-left:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">Pressing this switch during automatic operation activates the Feed Hold status.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="9" colcount="3" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td colspan="3" style="width:2%; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[SPINDLE ORIENTATION] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; height:20px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:6px; margin-bottom:6px;"><image src="NC switches_34.jpg" scale="4.00%" width="74" height="74" styleclass="Image Caption"></image></para>
+        </td>
+        <td colspan="2" style="height:35px; border-bottom:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">This switch is to orientate the Tool clamped to the Spindle head. Pressing the switch will turn the current Tool to the reference position.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:2%; height:30px; border-top:none; border-right:none;">
+          <para styleclass="Normal" style="text-align:center;"><image src="NC switches_2.jpg" scale="5.00%" width="22" height="23" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; height:30px; border-top:none; border-left:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">The button is available during manual operation modes (Handle, Reference, Rapid or Jog).</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td colspan="3" style="height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[SPINDLE OVERRIDE] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; height:12px;">
+          <para styleclass="Normal" style="text-align:center;"><image src="NC switches_35.jpg" scale="4.00%" width="75" height="75" styleclass="Image Caption"></image></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; height:30px; border-bottom:none;">
+          <para styleclass="Normal" style="margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">This switch is to increase the rotational speed set by the program or default speed set when the </text><text style="font-size:10pt; font-weight:bold;">[SPINDLE START]</text><text style="font-size:10pt;"> switch is ON.</text></para>
+          <para styleclass="Normal" style="margin-right:3px; margin-left:3px;"><text style="font-size:10pt;">The range of Spindle Override is 50% -120%, in steps of 10%. When this button is pressed, the active screen will automatically change to the Machine Status Screen, which shows the current Spindle Override value and it reverts back to the original screen after few seconds. The overridden Spindle rotation speed cannot exceed the maximum rotation speed.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:2%; height:30px; border-top:none; border-right:none;">
+          <para styleclass="Normal" style="text-align:center;"><image src="NC switches_2.jpg" scale="5.00%" width="22" height="23" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="height:30px; border-top:none; border-left:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">The switch is invalid when Spindle Override has been canceled by M59. The M58, Spindle Override valid status, is automatically selected when the power is turned ON.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:25%; height:30px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:6px; margin-bottom:6px;"><image src="NC switches_36.jpg" scale="4.00%" width="74" height="74" styleclass="Image Caption"></image></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; height:30px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">This switch is to decrease the rotational speed set by the program or the default speed set when the </text><text style="font-size:10pt; font-weight:bold;">[SPINDLE START]</text><text style="font-size:10pt;"> switch is ON.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td colspan="3" style="width:2%; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[TOOL UNCLAMP] Pilot LED</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; height:15px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:6px; margin-bottom:6px;"><image src="NC switches_37.jpg" scale="5.00%" width="95" height="95" styleclass="Image Caption"></image></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; height:30px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">The </text><text style="font-size:10pt; font-weight:bold;">[TOOL UNCLAMP]</text><text style="font-size:10pt;"> pilot LED displays the Tool clamp / unclamp status. The pilot LED lights up when the Tool is in the unclamp position. Vice versa, when the Tool is in the clamp position, the LED does not light up.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

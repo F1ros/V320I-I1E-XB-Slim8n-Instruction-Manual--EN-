@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>1 Materials for Program Generation - Slim8n Design Data</title>
+  <body>
+    <header>
+      <para styleclass="Heading2"><text style="font-size:14pt;">Materials for Program Generation - Slim8n Design Data</text></para>
+    </header>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="line-height:1.50; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="line-height:1.50;">Spindle Characteristics</li>
+      <li styleclass="Normal" style="line-height:1.50;">Spindle Head Dimensions</li>
+      <li styleclass="Normal" style="line-height:1.50;">Stroke Limits</li>
+      <li styleclass="Normal" style="line-height:1.50;">Work Area</li>
+      <li styleclass="Normal" style="line-height:1.50;">Broken Tool Sensor - BTS (Option)</li>
+    </list>
+    <para styleclass="Normal" style="line-height:1.50; page-break-before:always;"></para>
+  </body>
+</topic>

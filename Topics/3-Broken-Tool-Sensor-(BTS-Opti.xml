@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Needs Review">
+  <title>3 Broken Tool Sensor (BTS - Option)</title>
+  <body>
+    <header>
+      <para styleclass="Heading2">Broken Tool Sensor (BTS - Option)</para>
+    </header>
+    <para styleclass="Normal">A Broken Tool Sensor (BTS) unit provides the possibility to check the Tool damage within the working chamber. The Spindle with Tool will stopped at specific position. If the Tool is healthy, the Tool can push the limit switch properly and feed back the Tool is healthy. If the Tool is broken, the Tool cannot push the limit switch and the switch feed backs that the tool might be broken.</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">BTS detectable tool length: 80mm ~ 320mm (for STD table, no restriction on minimum tool length)</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">Refer to <link displaytype="text" defaultstyle="false" type="topiclink" href="3_1-BTS-Positionon-900X500-Table" anchor="Fig3.1" style="color:#0000ff;">Figure 3.1</link> for BTS recommended positions.</para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

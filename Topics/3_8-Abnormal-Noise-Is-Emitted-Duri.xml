@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.8 Abnormal Noise Is Emitted During Spindle Rotation</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">Abnormal Noise Is Emitted During Spindle Rotation</para>
+    </header>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="7" colcount="2" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td style="width:30%; height:27px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">Possible Causes</text></para>
+        </td>
+        <td style="width:70%; height:27px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">Corrective Measures</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:30%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">Bearings inside Spindle are damaged.</text></para>
+        </td>
+        <td style="width:70%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">Rotate the Spindle nose by hand while it is stopped and check whether or not it rotates easily and smoothly.</text></para>
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">If the Spindle does not rotate or it is hard to rotate or feels like it is catching on something when it is rotated, the Spindle bearings may be damaged.</text></para>
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">The Spindle cartridge needs to be replaced. Contact your Makino service representative.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:30%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">Seal air malfunction.</text></para>
+        </td>
+        <td style="width:70%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">Abnormal noise emitted during cutting and abnormal noise is not emitted when cutting is not being performed, it indicates noise is generated due to vibration during cutting. If the piping and / or wiring are loose, retighten them.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:30%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">Piping and wiring located at the rear of the Spindle are loose.</text></para>
+        </td>
+        <td style="width:70%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">Abnormal noise emitted during cutting and abnormal noise is not emitted when cutting is not being performed, it indicates noise is generated due to vibration during cutting. If the piping and / or wiring are loose, retighten them.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:30%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">Tool balance is bad.</text></para>
+        </td>
+        <td style="height:7px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">When abnormal noise is emitted only during high speed rotation, the Tool in the Spindle may be unbalanced. Contact your Makino service representative.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:30%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">Spindle and tool rotation balance is bad.</text></para>
+        </td>
+        <td style="height:7px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">When abnormal noise is emitted only during high speed rotation, the Spindle and Tool rotation may be unbalanced. Contact your Makino service representative.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:30%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">Electrical problem.</text></para>
+        </td>
+        <td style="height:7px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">Contact your Makino service representative.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

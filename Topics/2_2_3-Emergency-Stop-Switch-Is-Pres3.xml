@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.2.3 Emergency Stop Switch Is Pressed During Machining (No Workpiece and Tool Contact)</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">Emergency Stop Switch Is Pressed During Machining (No Workpiece and Tool Contact)</para>
+    </header>
+    <para styleclass="Normal">The Automatic Recovery operation cannot be performed. Perform the following procedure to release the Emergency Stop condition and to recover the machining program.</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="1" colcount="2" style="width:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:112px; border-right:none;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:0px; margin-left:8px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><image src="Danger symbol no text.png" scale="16.00%" width="42" height="37" styleclass="Image Caption"></image></para>
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:8px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#231f20;">WARNING</text></para>
+        </td>
+        <td style="vertical-align:middle; width:591px; border-left:none;">
+          <list id="12" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:4px; margin-bottom:3px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none; font-family:Symbol; font-size:10pt; color:#000000;">
+            <li styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:4px; margin-bottom:3px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="Normal" style="font-size:10pt; font-weight:bold;">Exercise extreme care when recovering the machine from the Emergency Stop condition as serious accidents may occur.</text></li>
+            <li styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:4px; margin-bottom:3px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="Normal" style="font-size:10pt; font-weight:bold;">When working with other personnel, maintain clear communication at all times to prevent serious injury.</text></li>
+            <li styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:4px; margin-bottom:3px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="Normal" style="font-size:10pt; font-weight:bold;">Contact your Makino service representative for assistance if serious damage to the machine has occurred.</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text style="font-weight:bold;">Recovery Procedure</text></para>
+    <list id="7" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-top:8px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-top:8px;">Make sure the condition(s) that led to pressing of the Emergency Stop switch are eliminated.</li>
+      <li styleclass="Normal" style="margin-top:8px;">Release the Emergency Stop condition.</li>
+    </list>
+    <list id="8" type="ol" listtype="lower-alpha" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-top:8px; margin-left:21px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-top:8px; margin-left:21px;">Rotate the Emergency Stop switch in the direction indicated by the arrow to release the lock.</li>
+      <li styleclass="Normal" style="margin-top:8px; margin-left:21px;">Press the <text style="font-weight:bold;">[POWER ON]</text> switch.</li>
+    </list>
+    <list id="9" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="3" styleclass="Normal" style="margin-top:8px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-top:8px;">Select the Reference Position Return mode.</li>
+      <li styleclass="Normal" style="margin-top:8px;">Return each axis to its reference position so that the workpiece does not interfere with the Spindle Tool.</li>
+      <li styleclass="Normal" style="margin-top:8px;">Check the Tool and workpiece for damage.</li>
+      <li styleclass="Normal" style="margin-top:8px;">Restart the program on the Program Edit Screen.</li>
+    </list>
+    <list id="10" type="ol" listtype="lower-alpha" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-top:8px; margin-left:21px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-top:8px; margin-left:21px;">Display the Program Edit Screen to confirm that the modal information is correct (Refer to <link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="NOTE1" style="color:#0000ff;">NOTE 1</link>). If the modal information is incorrect, correct the values in the MDI mode.</li>
+      <li styleclass="Normal" style="margin-top:8px; margin-left:21px;">Move the cursor to the block in which the machine entered the Emergency Stop condition.</li>
+      <li styleclass="Normal" style="margin-top:8px; margin-left:21px;">Input “Sxxxx” using the MDI mode and then press the <text style="font-weight:bold;">[SPINDLE START]</text> switch or input “Sxxxx M03(M04)”.</li>
+      <li styleclass="Normal" style="margin-top:8px; margin-left:21px;">Press the Coolant Related Function switch on the main operation panel or turn ON the Coolant Related Function on the Function Screen. (Refer to <link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="NOTE2" style="color:#0000ff;">NOTE 2</link>).</li>
+      <li styleclass="Normal" style="margin-top:8px; margin-bottom:5px; margin-left:21px;">Select Memory mode and then press the <text style="font-weight:bold;">[CYCLE START]</text> switch.</li>
+    </list>
+    <para styleclass="Normal" style="margin-top:8px;">This completes the recovery operation performed when the Emergency Stop switch is pressed during machining.</para>
+    <para styleclass="Normal" style="margin-top:8px;"><text style="font-size:10pt;">NOTES:</text></para>
+    <list id="11" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#32;&#32;&#32;&#32;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-top:8px; font-family:Arial; font-size:10pt; color:#000000;">
+      <li styleclass="Normal" style="margin-top:8px;"><text style="font-size:10pt;">The modal information may be reset to the original data when the machine entered the Emergency Stop condition. Serious damage to the machine or workpiece may result if a program including incorrect modal information is restarted.</text><anchor id="NOTE1" style="font-size:10pt;"></anchor></li>
+      <li styleclass="Normal" style="margin-top:8px;"><text style="font-size:10pt;">Each coolant function can be started by the M-Code.</text><anchor id="NOTE2" style="font-size:10pt;"></anchor></li>
+    </list>
+  </body>
+</topic>

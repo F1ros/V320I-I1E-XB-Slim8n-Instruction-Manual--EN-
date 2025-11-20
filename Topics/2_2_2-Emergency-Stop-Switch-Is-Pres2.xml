@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.2.2 Emergency Stop Switch Is Pressed During Spindle Rotation</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">Emergency Stop Switch Is Pressed During Spindle Rotation</para>
+    </header>
+    <para styleclass="Normal">If the Emergency Stop switch is pressed during Spindle rotation, the Spindle stops rotating immediately (including orientation).</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">At this point the Spindle orientation condition (retained electrically) is cancelled and the Spindle is released with Spindle rotation setting (S function) is invalidated.</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">If the tool is unclamped, the Emergency Stop function automatically clamps the tool.</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">Perform the following procedure when recovering from Emergency Stop condition.</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="margin-top:8px;"><table styleclass="Default" rowcount="1" colcount="2" style="width:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:112px; border-right:none;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:0px; margin-left:8px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><image src="Danger symbol no text.png" scale="16.00%" width="42" height="37" styleclass="Image Caption"></image></para>
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:8px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#231f20;">WARNING</text></para>
+        </td>
+        <td style="vertical-align:middle; width:591px; border-left:none;">
+          <list id="8" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:4px; margin-bottom:3px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none; font-family:Symbol; font-size:10pt; color:#000000;">
+            <li styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:4px; margin-bottom:3px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="Normal" style="font-size:10pt; font-weight:bold;">Exercise extreme care when recovering the machine from the Emergency Stop condition as serious accidents may occur.</text></li>
+            <li styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:4px; margin-bottom:3px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="Normal" style="font-size:10pt; font-weight:bold;">When working with other personnel, maintain clear communication at all times to prevent serious injury.</text></li>
+            <li styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:4px; margin-bottom:3px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="Normal" style="font-size:10pt; font-weight:bold;">Contact your Makino service representative for assistance if serious damage to the machine has occurred.</text></li>
+            <li styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:4px; margin-bottom:3px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="Normal" style="font-size:10pt; font-weight:bold;">If operation cannot be recovered using the manual recovery procedure, do NOT attempt to solve the problem. Contact your Makino service representative for assistance.</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-bottom:10px; page-break-before:always;"><text style="font-weight:bold;">Recovery Procedure</text></para>
+    <list id="5" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:10px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;">Make sure the condition(s) that led to pressing of the Emergency Stop switch are eliminated.</li>
+      <li styleclass="Normal" style="margin-bottom:10px;">Release the Emergency Stop condition.</li>
+    </list>
+    <list id="6" type="ol" listtype="lower-alpha" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:10px; margin-left:19px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px; margin-left:19px;">Rotate the Emergency Stop switch in the direction indicated by the arrow to release the lock.</li>
+      <li styleclass="Normal" style="margin-bottom:10px; margin-left:19px;">Press the <text style="font-weight:bold;">[POWER ON]</text> switch.</li>
+    </list>
+    <list id="7" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="3" styleclass="Normal" style="margin-bottom:10px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;">Press the <text style="font-weight:bold;">[NC RESET]</text> key on MDI panel. Reset the rotation speed via S function.</li>
+      <li styleclass="Normal" style="margin-bottom:10px;">Restart the Spindle rotation using either M03 or M04 function or by pressing the <text style="font-weight:bold;">[SPINDLE START]</text> switch.</li>
+    </list>
+    <para styleclass="Normal">Follow the standard procedure prior to normal machining operation.</para>
+  </body>
+</topic>

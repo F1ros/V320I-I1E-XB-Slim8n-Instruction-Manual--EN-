@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.2 Spindle Does Not Stop</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">Spindle Does Not Stop</para>
+    </header>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="2" colcount="2" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td style="width:30%; height:27px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">Possible Causes</text></para>
+        </td>
+        <td style="width:70%; height:27px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">Corrective Measures</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:30%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">Rigid tapping is ongoing.</text></para>
+        </td>
+        <td style="width:70%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">A machine Alarm is triggered when the </text><text style="font-size:10pt; font-weight:bold;">[SPINDLE STOP]</text><text style="font-size:10pt;"> switch is pressed during rigid tapping.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

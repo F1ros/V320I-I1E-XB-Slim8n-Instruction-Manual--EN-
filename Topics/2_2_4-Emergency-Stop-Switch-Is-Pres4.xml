@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.2.4-Emergency Stop Switch Is Pressed During Machining (Workpiece and Tool Contact)</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">Emergency Stop Switch Is Pressed During Machining (Workpiece and Tool Contact)</para>
+    </header>
+    <para styleclass="Normal">The Automatic Recovery operation cannot be performed. Perform the following procedure to release the Emergency Stop condition and to recover the machining program.</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="margin-top:8px; margin-bottom:10px;"><table styleclass="Default" rowcount="1" colcount="2" style="width:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:112px; border-right:none;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:0px; margin-left:8px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><image src="Danger symbol no text.png" scale="16.00%" width="42" height="37" styleclass="Image Caption"></image></para>
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:8px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#231f20;">WARNING</text></para>
+        </td>
+        <td style="vertical-align:middle; width:591px; border-left:none;">
+          <list id="22" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:4px; margin-bottom:3px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none; font-family:Symbol; font-size:10pt; color:#000000;">
+            <li styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:4px; margin-bottom:3px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="Normal" style="font-size:10pt; font-weight:bold;">Exercise extreme care when recovering the machine from the Emergency Stop condition as serious accidents may occur.</text></li>
+            <li styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:4px; margin-bottom:3px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="Normal" style="font-size:10pt; font-weight:bold;">When working with other personnel, maintain clear communication at all times to prevent serious injury.</text></li>
+            <li styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:4px; margin-bottom:3px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="Normal" style="font-size:10pt; font-weight:bold;">Contact your Makino service representative for assistance if serious damage to the machine has occurred.</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-top:8px;"><text style="font-weight:bold;">Recovery Procedure</text></para>
+    <list id="12" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-top:8px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-top:8px;">Make sure the condition(s) that led to pressing of the Emergency Stop switch are eliminated.</li>
+      <li styleclass="Normal" style="margin-top:8px;">Release the Emergency Stop condition.</li>
+    </list>
+    <list id="13" type="ol" listtype="lower-alpha" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-top:8px; margin-left:21px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-top:8px; margin-left:21px;">Rotate the Emergency Stop switch in the direction indicated by the arrow to release the lock.</li>
+      <li styleclass="Normal" style="margin-top:8px; margin-left:21px;">Press the <text style="font-weight:bold;">[POWER ON]</text> switch.</li>
+    </list>
+    <list id="14" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="3" styleclass="Normal" style="margin-top:8px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-top:8px;">Select the Handle mode.</li>
+      <li styleclass="Normal" style="margin-top:8px;">Check the position of the Spindle Tool and workpiece.</li>
+    </list>
+    <list id="15" type="ol" listtype="lower-alpha" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-top:8px; margin-left:21px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-top:8px; margin-left:21px;">When the Tool and workpiece are in contact but can be separated using the Handle mode, proceed to step 5.</li>
+      <li styleclass="Normal" style="margin-top:8px; margin-left:21px;">When the Tool and workpiece are in contact and cannot be separated using the Handle mode, proceed to step 6.</li>
+    </list>
+    <list id="14" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="3" styleclass="Normal" style="margin-top:8px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-top:8px;">Separate the Tool from the workpiece using the Handle mode.</li>
+    </list>
+    <list id="16" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-top:8px; margin-left:21px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-top:8px; margin-left:21px;">When the Tool has an edge wider than the tool body (e.g. boring bar):</li>
+    </list>
+    <list id="17" type="ol" listtype="lower-alpha" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-top:8px; margin-left:34px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-top:8px; margin-left:34px;">Confirm the part of the Tool that has come into contact with the workpiece.</li>
+      <li styleclass="Normal" style="margin-top:8px; margin-left:34px;">Move the Tool in the X- or Z-axis direction to prevent further interference between the tool and the workpiece. Move the Y-axis in “+” direction until reaching the reference position.</li>
+    </list>
+    <list id="18" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-top:8px; margin-left:21px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-top:8px; margin-left:21px;">When workpiece and Tool interference does not occur even when Y-axis is moved.</li>
+    </list>
+    <list id="19" type="ol" listtype="lower-alpha" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-19px; margin-top:8px; margin-left:53px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-19px; margin-top:8px; margin-left:53px;">Move the Y-axis in “+” direction until reaching the reference position.</li>
+    </list>
+    <para styleclass="Normal" style="text-align:center; text-indent:-19px; margin-bottom:14px; margin-left:19px;"><image src="Emergency Stop Switch is Pressed During Machining 1.jpg" scale="30.00%" width="10" height="10" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text style="font-size:11pt;">Figure &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160;Emergency Stop Switch is Pressed During Machining (Workpiece and Tool Contact) 1</text></para>
+    <list id="20" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="6" styleclass="Normal" style="line-height:1.50; page-break-before:always; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="line-height:1.50; page-break-before:always;"><text style="font-size:11pt;">Separate the trapped Tool from the workpiece.</text></li>
+    </list>
+    <list id="21" type="ol" listtype="lower-alpha" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-left:21px; line-height:1.50; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-left:21px; line-height:1.50;"><text style="font-size:11pt;">Activate the Machine Lock and Auxiliary Function Lock modes.</text></li>
+      <li styleclass="Normal" style="margin-left:21px; line-height:1.50;"><text style="font-size:11pt;">Hold the Tool firmly and then loosen the Tool holder.</text></li>
+      <li styleclass="Normal" style="margin-left:21px; line-height:1.50;"><text style="font-size:11pt;">Release the Machine Lock and Auxiliary Function Lock modes, after going out of the machining chamber.</text></li>
+      <li styleclass="Normal" style="margin-left:21px; line-height:1.50;"><text style="font-size:11pt;">Move the Z-axis in the “+” direction to separate the Tool from the holder.</text></li>
+      <li styleclass="Normal" style="margin-left:21px;"><text style="font-size:11pt;">Remove the trapped tool from the workpiece.</text></li>
+    </list>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:10px;"><image src="Emergency Stop Switch is Pressed During Machining 2.jpg" scale="30.00%" width="10" height="10" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text style="font-size:11pt;">Figure &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160;Emergency Stop Switch is Pressed During Machining (Workpiece and Tool Contact) 2</text></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:19px; page-break-before:always;"></para>
+  </body>
+</topic>

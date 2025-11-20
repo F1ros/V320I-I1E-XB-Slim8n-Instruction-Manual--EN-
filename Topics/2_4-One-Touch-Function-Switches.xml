@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.4 One-Touch Function Switches</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">One-Touch Function Switches</para>
+    </header>
+    <para styleclass="Normal">One-Touch functions allow multiple operations to be performed by selecting and starting the function (single-touch utilization of switches). The One-Touch functions are valid regardless of the operation mode. Refer below for details on how to operate One-Touch functions.</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="8" colcount="3" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td colspan="3" style="height:26px;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">Switches on Main Operation Panel (Standard Specifications)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td colspan="3" style="width:2%; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[AUTO ZERO] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:20%; height:20px;">
+          <para styleclass="Normal" style="text-align:center;"><image src="NC switches_20.jpg" scale="4.00%" width="72" height="73" styleclass="Image Caption"></image></para>
+        </td>
+        <td colspan="2" style="width:80%; height:20px; border-bottom:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">This switch automatically returns all axes (except the Tool magazine axes) to their respective reference positions. The Spindle and coolant supply are stopped. The respective axes are moved at rapid feed to their respective reference positions.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:2%; height:30px; border-top:none; border-right:none; border-bottom:none;">
+          <para styleclass="Normal" style="text-align:center; margin-right:2px; margin-left:2px;"><image src="NC switches_19.jpg" scale="5.00%" width="22" height="22" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; height:30px; border-top:none; border-bottom:none; border-left:none;">
+          <para styleclass="Normal" style="margin-right:3px; margin-bottom:3px; margin-left:5px;"><text style="font-size:10pt;">Only the basic axes are moved to their respective reference positions. The Tool magazine axes will not be moved to their respective reference positions when the </text><text style="font-size:10pt; font-weight:bold;">[AUTO ZERO]</text><text style="font-size:10pt;"> switch is pressed</text>.</para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td colspan="3" style="height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[SET UP POS RET] (Setup Position Return) Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:20%; height:6px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:6px; margin-bottom:6px;"><image src="NC switches_21.jpg" scale="4.00%" width="75" height="75" styleclass="Image Caption"></image></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; height:30px; border-bottom:none;">
+          <para styleclass="Normal" style="margin-right:3px; margin-left:3px;"><text style="font-size:10pt;">This switch automatically moves the X/Y/Z-axes (executed by program O9912).</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td colspan="3" style="height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[CUS FUNC] (Special Customise Function) Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:20%; height:30px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:6px; margin-bottom:6px;"><image src="NC switches_22.jpg" scale="4.00%" width="71" height="71" styleclass="Image Caption"></image></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; height:30px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">This switch automatically executes the program set inside the dedicated macro program O9914 set for custom application. The program can be edited if necessary.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="6" colcount="2" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td colspan="2" style="width:2%; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[SPEC TL CHG] (Special Tool Change) Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:20%; height:10px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:6px; margin-bottom:6px;"><image src="NC switches_23.jpg" scale="4.00%" width="72" height="72" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; width:80%; height:35px; border-bottom:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">This switch automatically calls the Tool in the Tool magazine specified by machine parameter and exchanges it with the Spindle Tool. The Spindle and coolant supply are stopped at this time.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td colspan="2" style="height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[START] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:20%; height:6px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:6px; margin-bottom:6px;"><image src="NC switches_24.jpg" scale="4.00%" width="72" height="72" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; width:80%; height:30px; border-bottom:none;">
+          <para styleclass="Normal" style="margin-right:3px; margin-left:3px;"><text style="font-size:10pt;">This switch starts the selected One-Touch function.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td colspan="2" style="height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[STOP] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:20%; height:30px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:6px; margin-bottom:6px;"><image src="NC switches_25.jpg" scale="4.00%" width="74" height="74" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; width:80%; height:30px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">This switch stops the selected One-Touch function. This switch is valid while the One-Touch function is being performed.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

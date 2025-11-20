@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2 Maximum Workpiece Limitations</title>
+  <body>
+    <header>
+      <para styleclass="Heading2">Maximum Workpiece Limitations</para>
+    </header>
+    <para styleclass="Normal">To prevent interference between the workpiece (e.g. where the workpiece size is bigger than the table size) and other components, mainly the ATC and Splash Guard, the movement range of the workpiece is restricted to be within the maximum workpiece limitations (sand pattern hatching) as shown in <link displaytype="text" defaultstyle="false" type="topiclink" href="1_4-Machine-Stroke-Limits" anchor="Fig1.4" style="color:#0000ff;">Figure 1.4</link> to <link displaytype="text" defaultstyle="false" type="topiclink" href="1_7-APC-Machine-Work-Area" anchor="Fig1.7" style="color:#0000ff;">Figure 1.7</link>.</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">The Automatic Tool Change operation can be performed with workpieces within the dimensions shown in <link displaytype="text" defaultstyle="false" type="topiclink" href="1_4-Machine-Stroke-Limits" anchor="Fig1.4" style="color:#0000ff;">Figure 1.4</link> to <link displaytype="text" defaultstyle="false" type="topiclink" href="1_7-APC-Machine-Work-Area" anchor="Fig1.7" style="color:#0000ff;">Figure 1.7</link> and the conditions below are satisfied.</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="margin-bottom:10px;">Conditions:</para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:10px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;">When the X- / Y- / Z-axis is moved, the workpiece must be within the movement range. (Refer to <link displaytype="text" defaultstyle="false" type="topiclink" href="1_4-Machine-Stroke-Limits" anchor="Fig1.4" style="color:#0000ff;">Figure 1.4</link> to <link displaytype="text" defaultstyle="false" type="topiclink" href="1_7-APC-Machine-Work-Area" anchor="Fig1.7" style="color:#0000ff;">Figure 1.7</link>)</li>
+      <li styleclass="Normal" style="margin-bottom:10px;">When the workpiece is in the machining chamber, the tool change operation cannot be performed if Tool dimensions do not satisfy the conditions in <link displaytype="text" defaultstyle="false" type="topiclink" href="1_4-Machine-Stroke-Limits" anchor="Fig1.4" style="color:#0000ff;">Figure 1.4</link> to <link displaytype="text" defaultstyle="false" type="topiclink" href="1_7-APC-Machine-Work-Area" anchor="Fig1.7" style="color:#0000ff;">Figure 1.7</link>.</li>
+      <li styleclass="Normal">A portion of the workpiece shape must be changed for exchanging Tools that exceed the Tool shape limitation (Refer to <link displaytype="text" defaultstyle="false" type="topiclink" href="1_4-Machine-Stroke-Limits" anchor="Fig1.4" style="color:#0000ff;">Figure 1.4</link> to <link displaytype="text" defaultstyle="false" type="topiclink" href="1_7-APC-Machine-Work-Area" anchor="Fig1.7" style="color:#0000ff;">Figure 1.7</link>).</li>
+    </list>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

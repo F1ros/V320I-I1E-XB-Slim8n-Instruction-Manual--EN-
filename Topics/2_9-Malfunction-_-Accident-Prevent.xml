@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.9 Malfunction / Accident Prevention Switches / Key Switches</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">Malfunction / Accident Prevention Switches / Key Switches</para>
+    </header>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="10" colcount="3" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td colspan="3" style="width:70%; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[EMERGENCY STOP] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="6" style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><image src="NC switches_38.jpg" scale="4.00%" width="70" height="70" styleclass="Image Caption"></image></para>
+        </td>
+        <td colspan="2" style="width:65%; height:35px; border-bottom:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:5px; margin-left:3px;"><text style="font-size:10pt;">When the Emergency Stop switch is pressed, axis feed, Spindle rotation and all other machine functions stop immediately. Once this switch is pressed, it is locked in this position. The lock can be released by turning the switch in the direction indicated by the arrow</text>.</para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:top; width:5%; height:30px; border-top:none; border-right:none; border-bottom:none;">
+          <para styleclass="Normal" style="text-align:center;"><image src="NC switches_1.jpg" scale="5.10%" width="24" height="24" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; width:65%; height:30px; border-top:none; border-bottom:none; border-left:none;">
+          <para styleclass="Normal" style="margin-right:3px; margin-bottom:5px; margin-left:3px;"><text style="font-size:10pt;">The machine goes to the following status when the Emergency Stop switch is pressed:</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:65%; height:30px; border-top:none; border-bottom:none; border-left:none;">
+          <list id="4" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="" style="text-align:left; text-indent:-19px; margin-top:0px; margin-right:3px; margin-bottom:3px; margin-left:22px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:41px left ; font-family:Symbol; font-size:10pt; color:#000000;">
+            <li styleclass="" style="text-align:left; text-indent:-19px; margin-top:0px; margin-right:3px; margin-bottom:3px; margin-left:22px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:41px left ;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Feed of all axes is immediately stopped.</text></li>
+            <li styleclass="" style="text-align:left; text-indent:-19px; margin-top:0px; margin-right:3px; margin-bottom:3px; margin-left:22px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:41px left ;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Spindle is stopped if it is rotating.</text></li>
+            <li styleclass="" style="text-align:left; text-indent:-19px; margin-top:0px; margin-right:3px; margin-bottom:3px; margin-left:22px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:41px left ;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">If unclamped, the Spindle Tool is clamped.</text></li>
+            <li styleclass="" style="text-align:left; text-indent:-19px; margin-top:0px; margin-right:3px; margin-bottom:3px; margin-left:22px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:41px left ;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">When Spindle orientation has been performed, orientation status is released.</text></li>
+            <li styleclass="" style="text-align:left; text-indent:-19px; margin-top:0px; margin-right:3px; margin-bottom:3px; margin-left:22px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:41px left ;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">When a Tool change is being performed, operation stops immediately (even in mid-motion).</text></li>
+            <li styleclass="" style="text-align:left; text-indent:-19px; margin-top:0px; margin-right:3px; margin-bottom:3px; margin-left:22px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:41px left ;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">When the Tool magazine is operating, it is stopped immediately (even in mid-motion).</text></li>
+            <li styleclass="" style="text-align:left; text-indent:-19px; margin-top:0px; margin-right:3px; margin-bottom:3px; margin-left:22px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:41px left ;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">NC unit goes to Reset status.</text></li>
+            <li styleclass="" style="text-align:left; text-indent:-19px; margin-top:0px; margin-right:3px; margin-bottom:5px; margin-left:22px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:41px left ;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Coolant supply is stopped.</text></li>
+          </list>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:5%; height:15px; border-top:none; border-right:none; border-bottom:none;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px;"><image src="NC switches_2.jpg" scale="5.00%" width="22" height="23" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; width:65%; height:30px; border-top:none; border-bottom:none; border-left:none;">
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:3px; margin-bottom:5px; margin-left:3px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">For details on the restore procedure from the Emergency Stop status (</text><link displaytype="text" defaultstyle="false" type="topiclink" href="2_2-Recovery-from-Emergency-Stop" styleclass="" style="font-family:Arial; font-size:10pt; color:#0000ff;">Refer to Chapter 5, 2.2 Recovery from Emergency Stop</link><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:5%; height:15px; border-top:none; border-right:none; border-bottom:none;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px;"><image src="NC switches_2.jpg" scale="5.00%" width="22" height="23" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; width:65%; height:30px; border-top:none; border-bottom:none; border-left:none;">
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Emergency Stop switches are also located on the following parts in addition to the main operation panel: (Refer to </text><link displaytype="text" defaultstyle="false" type="topiclink" href="3-Safety-Devices_3" styleclass="" style="font-family:Arial; font-size:10pt; color:#0000ff;">Chapter 1, 3 Safety Devices</link><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">).</text></para>
+          <list id="5" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:3px; margin-bottom:0px; margin-left:3px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none; font-family:Symbol; font-size:10pt; color:#000000;">
+            <li styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:3px; margin-bottom:0px; margin-left:3px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Drum Conveyor Operation Panel (Option)</text></li>
+            <li styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:3px; margin-bottom:5px; margin-left:3px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Portable Manual Pulse Generator (Option)</text></li>
+          </list>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:5%; height:50px; border-top:none; border-right:none; border-bottom:none;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px;"><image src="NC switches_19.jpg" scale="5.00%" width="22" height="22" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; width:65%; height:50px; border-top:none; border-left:none;">
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:3px; margin-bottom:5px; margin-left:3px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">The machine is in the Emergency Stop status and will not be started up until the lock is released by turning the switch in the direction indicated by the arrow and the </text><text styleclass="" style="font-family:Arial; font-size:10pt; font-weight:bold; color:#000000;">[POWER ON]</text><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;"> switch is then pressed.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td colspan="3" style="width:70%; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text styleclass="" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">[ALARM RESET] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:30%; height:6px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:6px; margin-bottom:6px;"><image src="NC switches_39.jpg" scale="4.00%" width="75" height="75" styleclass="Image Caption"></image></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:65%; height:30px; border-bottom:none;">
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:3px; margin-bottom:3px; margin-left:3px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Pressing this switch will deactivate any current Alarm that occurred during operation.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:5%; height:30px; border-top:none; border-right:none;">
+          <para styleclass="Normal" style="text-align:center;"><image src="NC switches_2.jpg" scale="5.00%" width="22" height="23" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="width:65%; border-top:none; border-left:none;">
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:3px; margin-bottom:3px; margin-left:3px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Alarm Reset can also be done on the screen.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="page-break-before:always;"><table styleclass="Default" rowcount="6" colcount="3" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td colspan="3" style="width:2%; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text styleclass="" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">[MODE UNLOCK] Key Switch (only for Door Lock / CE specifications)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; height:20px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:6px; margin-bottom:6px;"><image src="NC switches_40.jpg" scale="4.00%" width="75" height="114" styleclass="Image Caption"></image></para>
+        </td>
+        <td colspan="2" style="height:35px; border-bottom:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">When this key switch is turned to the right it is enabled, allowing the operation mode to be changed. After an operation mode is selected, turning this key switch to the left disables the mode. Remove the key to ensure operator safety.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:5%; height:30px; border-top:none; border-right:none;">
+          <para styleclass="Normal" style="text-align:center;"><image src="NC switches_1.jpg" scale="5.02%" width="24" height="24" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; height:30px; border-top:none; border-left:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">When the Operator Door is open, the operation mode cannot be changed.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td colspan="3" style="height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text styleclass="" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">[MEMORY UNLOCK] Key Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:30%; height:30px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:2px; margin-bottom:2px;"><image src="NC switches_41.jpg" scale="4.00%" width="74" height="111" styleclass="Image Caption"></image></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; height:30px; border-bottom:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">This switch turns Memory Protect Release mode ON/OFF. When the memory is unlocked, the following operations are enabled:</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="2" style="vertical-align:middle; height:30px; border-top:none;">
+          <list id="6" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="" style="text-align:left; text-indent:-19px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:22px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:15px left ; font-family:Symbol; font-size:10pt; color:#000000;">
+            <li styleclass="" style="text-align:left; text-indent:-19px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:22px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:15px left ;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Program entry and editing</text></li>
+            <li styleclass="" style="text-align:left; text-indent:-19px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:22px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:15px left ;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Tool offset value entry</text></li>
+            <li styleclass="" style="text-align:left; text-indent:-19px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:22px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:15px left ;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Absolute coordinate presetting</text></li>
+            <li styleclass="" style="text-align:left; text-indent:-19px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:22px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:15px left ;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Registration of NC program in memory from external device. </text></li>
+            <li styleclass="" style="text-align:left; text-indent:-19px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:22px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:15px left ;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Position offset value entry</text></li>
+            <li styleclass="" style="text-align:left; text-indent:-19px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:22px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:15px left ;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Macro variable entry</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="3" colcount="2" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td colspan="2" style="height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text styleclass="" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">[OT RELEASE] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:30%; height:30px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:2px; margin-bottom:2px;"><image src="NC switches_42.jpg" scale="4.00%" width="77" height="77" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; height:30px; border-bottom:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:10px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">This switch is used for the following purposes:</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; height:30px; border-top:none;">
+          <list id="7" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="" style="text-align:left; text-indent:-19px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:22px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:15px left ; font-family:Symbol; font-size:10pt; color:#000000;">
+            <li styleclass="" style="text-align:left; text-indent:-19px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:22px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:15px left ;"><text styleclass="" style="font-family:Arial; font-size:11pt; color:#000000;">W</text><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">hen the Emergency Stop status has been triggered by overtravel (OT2) of a feed axis, that axis is moved in the opposite direction back within its stroke while holding down this switch. The Emergency Stop status is released while this switch is pressed.</text></li>
+            <li styleclass="" style="text-align:left; text-indent:-19px; margin-top:0px; margin-right:0px; margin-bottom:10px; margin-left:22px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:15px left ;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">When the machine stops during the Tool change or other operation and all the feed axes are in the Interlock status, use this switch to release the interlock and move the axes. The Interlock is released while this switch is pressed. Only the Handle mode and Jog mode are enabled at this time (Refer to </text><link displaytype="text" defaultstyle="false" type="topiclink" href="11_2-Jog-Feed" styleclass="" style="font-family:Arial; font-size:10pt; color:#0000ff;">11.2 Jog Feed</link><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">, </text><link displaytype="text" defaultstyle="false" type="topiclink" href="11_3-Handle-Feed" styleclass="" style="font-family:Arial; font-size:10pt; color:#0000ff;">11.3 Handle Feed</link><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">).</text></li>
+          </list>
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:3px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">This switch is used to release the Interlock when performing maintenance operation.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.6 Rotary Work Head (RWH) Specification</title>
+  <body>
+    <header>
+      <para styleclass="Heading1" style="text-align:left;"><text style="font-size:16pt;">Rotary Work Head (RWH) Specification</text></para>
+    </header>
+    <para styleclass="Table_E"></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:10px;"><table rowcount="9" colcount="2" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:255px; height:23px; background-color:#dddddd;">
+          <para styleclass style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:3px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass style="font-family:Arial; font-size:10pt; font-weight:bold; color:#000000;">Specification</text></para>
+        </td>
+        <td style="width:349px; height:23px; background-color:#dddddd;">
+          <para styleclass style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:3px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass style="font-family:Arial; font-size:10pt; font-weight:bold; color:#000000;">Measurement</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:255px; height:24px;">
+          <para styleclass style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:3px; margin-left:3px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass style="font-family:Arial; font-size:10pt; color:#000000;">Minimum Index Angle</text></para>
+        </td>
+        <td style="width:349px; height:24px;">
+          <para styleclass style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:3px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass style="font-family:Arial; font-size:10pt; color:#000000; background-color:#ffffff;">0.001°</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:255px; height:24px;">
+          <para styleclass style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:3px; margin-left:3px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass style="font-family:Arial; font-size:10pt; color:#000000;">Table Size</text></para>
+        </td>
+        <td style="width:349px; height:24px;">
+          <para styleclass style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:3px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass style="font-family:Arial; font-size:10pt; color:#000000;">Ø 450 mm</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:255px; height:24px;">
+          <para styleclass style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:3px; margin-left:3px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass style="font-family:Arial; font-size:10pt; color:#000000;">Table Top Surface Mounting Hole</text></para>
+        </td>
+        <td style="width:349px; height:24px; background-color:#ffffff;">
+          <para styleclass style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:3px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass style="font-family:Arial; font-size:10pt; color:#000000;">M16 tap x 8 evenly distributed</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:255px; height:24px;">
+          <para styleclass style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:3px; margin-left:3px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass style="font-family:Arial; font-size:10pt; color:#000000;">Maximum Loading Weight</text></para>
+        </td>
+        <td style="width:349px; height:24px;">
+          <para styleclass style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:3px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass style="font-family:Arial; font-size:10pt; color:#000000;">400 kg</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:255px; height:24px;">
+          <para styleclass style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:3px; margin-left:3px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass style="font-family:Arial; font-size:10pt; color:#000000;">Maximum Inertia Moment at Table Center</text></para>
+        </td>
+        <td style="width:349px; height:24px;">
+          <para styleclass style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:3px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass style="font-family:Arial; font-size:10pt; color:#000000;">25 kgm² (Rotary, C-axis) / 15 kgm² (Tilt, A-axis)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:255px; height:24px;">
+          <para styleclass style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:3px; margin-left:3px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass style="font-family:Arial; font-size:10pt; color:#000000;">Clamping Method</text></para>
+        </td>
+        <td style="width:349px; height:24px; background-color:#ffffff;">
+          <para styleclass style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:3px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass style="font-family:Arial; font-size:10pt; color:#000000;">Air</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:255px; height:24px;">
+          <para styleclass style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:3px; margin-left:3px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass style="font-family:Arial; font-size:10pt; color:#000000;">Drive Motor</text></para>
+        </td>
+        <td style="width:349px; height:24px;">
+          <para styleclass style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:3px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass style="font-family:Arial; font-size:10pt; color:#000000;">DiS200/150 (Rotary, C-axis) / </text><text styleclass="Normal" style="vertical-align:baseline; color:#1f1f1f; background-color:#ffffff;">αiF22/3000 (Tilt, A-axis)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:255px; height:24px;">
+          <para styleclass style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:3px; margin-left:3px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass style="font-family:Arial; font-size:10pt; color:#000000;">Rotary Joints</text></para>
+        </td>
+        <td style="width:349px; height:24px;">
+          <para styleclass style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:3px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass style="font-family:Arial; font-size:10pt; color:#000000;">12 ports (maximum working pressure: 21 MPa) </text></para>
+          <para styleclass style="text-align:center; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:3px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass style="font-family:Arial; font-size:10pt; color:#000000;">Supply port: Rc1/4</text><br/><text styleclass style="font-family:Arial; font-size:10pt; color:#000000;">Discharge port: Ø 6</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-bottom:10px;">-NOTE-<draft-comment width="300px" height="100px" modified="2024-09-12" styleclass="Comment"><![CDATA[Updated.
+
+-NOTE-
+1. For Hydraulics, only use ports 1 to 8. 
+2. For Pneumatics, can use ports 1 to 12. ]]></draft-comment></para>
+    <para styleclass="Normal" style="margin-bottom:3px;"><text style="font-size:10pt;">1. For Hydraulics, only use ports 1 to 8. </text></para>
+    <para styleclass="Normal" style="margin-bottom:3px;"><text style="font-size:10pt;">2. For Pneumatics, can use ports 1 to 12. </text></para>
+    <para styleclass="Normal"><text style="font-size:10pt;">3. The cutting oil and hydraulic ports cannot be adjacent to each other. Adjacent usage can result in an oil</text></para>
+    <para styleclass="Normal" style="margin-bottom:3px;"><text style="font-size:10pt;">    leak. </text></para>
+    <para styleclass="Normal"><text style="font-size:10pt;">4. When using different fluids adjacent to each other, it is recommended that an empty port (drain) be</text></para>
+    <para styleclass="Normal"><text style="font-size:10pt;">    provided between the ports to prevent oil leaks. In this case, the number of available ports will be less</text></para>
+    <para styleclass="Normal" style="margin-bottom:3px;"><text style="font-size:10pt;">    than 12 ports. </text></para>
+    <para styleclass="Normal"><text style="font-size:10pt;">5. Lids for covering the hydraulic/pneumatic supply ports on the table top surface and O-rings (P8) for</text></para>
+    <para styleclass="Normal"><text style="font-size:10pt;">    sealing the port holes are provided as shipping. If a jig will be mounted, be sure to attach the O-ring</text></para>
+    <para styleclass="Normal" style="margin-bottom:10px;"><text style="font-size:10pt;">    (P8) before mounting. Otherwise, an oil leak could occur. </text></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:10px;"><image src="Fig 3.4 RWH Spec.png" scale="68.00%" width="669" height="347" styleclass="Image Caption"></image></para>
+    <para styleclass style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><anchor id="Fig3.4" styleclass="Normal" style="font-size:11pt;"></anchor><text styleclass="Normal" style="font-size:11pt;">Figure &lt;%HMFIGURECOUNTER3=3%&gt;.&lt;%HMFIGURECOUNTER%&gt; Rotary Work Head (RWH) Specification</text></para>
+    <para styleclass style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-before:always; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"></para>
+  </body>
+</topic>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>1.7 APC Machine Work Area</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">APC Machine Work Area</para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:10px;"><text styleclass="Image Caption" style="font-size:10pt; text-decoration:underline;">Top View</text></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Fig1.7 APC MC Work Area_01.png" scale="35.00%" width="563" height="361" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="margin-bottom:10px;"><text styleclass="Image Caption" style="font-size:10pt; text-decoration:underline;">Side View</text></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Fig1.7 APC MC Work Area_03.png" scale="35.00%" width="502" height="367" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="margin-bottom:10px; page-break-before:always;"><text styleclass="Image Caption" style="font-size:10pt; text-decoration:underline;">Front View</text></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Fig1.7 APC MC Work Area_02.png" scale="35.00%" width="398" height="358" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="Fig1.7" style="font-size:11pt;"></anchor><text style="font-size:11pt;">Figure &lt;%HMFIGURECOUNTER1=1%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; APC Machine Work Area</text><draft-comment width="300px" height="100px" modified="2024-08-21" styleclass="Comment"><![CDATA[Updated.]]></draft-comment></para>
+    <para styleclass="Normal" style="text-align:center; page-break-before:always;"></para>
+  </body>
+</topic>

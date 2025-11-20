@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.2 Switches on Portable Manual Pulse Generator (Option)</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">Switches on Portable Manual Pulse Generator (Option)</para>
+    </header>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="10" colcount="2" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td colspan="2" style="width:2%; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text styleclass="" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">Emergency Stop Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; height:10px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><image src="NC switches_53.jpg" scale="5.00%" width="90" height="90" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="height:35px; border-bottom:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">The Emergency Stop switch has the same function as the one on the main operation panel. Refer to </text><link displaytype="text" defaultstyle="false" type="topiclink" href="2-Switches-on-Main-Operation-Pan" styleclass="" style="font-family:Arial; font-size:10pt; color:#0000ff;">2 Switches on Main Operation Panel</link></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td colspan="2" style="height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text styleclass="" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">Handle Feed Rotary Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; height:6px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><image src="NC switches_54.jpg" scale="5.00%" width="93" height="78" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; height:30px; border-bottom:none;">
+          <para styleclass="Normal" style="margin-right:5px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">This rotary switch, also known as Magnification Selection rotary switch, is used to specify the feed per pulse in Handle mode. (Refer to </text><link displaytype="text" defaultstyle="false" type="topiclink" href="11_3-Handle-Feed" styleclass="" style="font-family:Arial; font-size:10pt; color:#0000ff;">11.3 Handle Feed</link><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td colspan="2" style="height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text styleclass="" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">Axis Selection Rotary Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:25%; height:30px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:5px; margin-bottom:5px;"><image src="NC switches_55.jpg" scale="5.00%" width="103" height="87" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; height:30px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">This rotary switch is used to select the axis for movement in Handle mode.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="2" style="vertical-align:middle; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text styleclass="" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">Axis Selection Rotary Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="2" style="vertical-align:middle; height:30px;">
+          <para styleclass="Normal" style="margin-top:10px; margin-right:3px; margin-bottom:10px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">The Deadman switch has a 3-stage structure. The switch will only be activated if it is pressed halfway or to the middle level. It will not be activated if it is pressed fully. This acts as a safety feature to prevent any unintentional axis movement.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="2" style="vertical-align:middle; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text styleclass="" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">Axis Selection Rotary Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="2" style="vertical-align:middle; height:30px;">
+          <para styleclass="Normal" style="margin-top:10px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Axis movement is enabled only with the rotation of the Pulse Coder and pressing the Deadman switch.</text></para>
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">The Pulse Coder sends electrical pulses to the NC unit to move the selected axis in the ‘+’ (CW) or ‘-’ (CCW) direction. The feed of the axis movement depends on the amount selected by the Handle Feed rotary switch. The axis does not move if the machine is in axis-interlocked state or if an Alarm has occurred.</text></para>
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:5px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">The Pulse Coder generates 100 pulses per one full rotation and a click is emitted each time a pulse is generated.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

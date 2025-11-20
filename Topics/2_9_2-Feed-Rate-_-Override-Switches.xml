@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.9.2 Feed Rate / Override Switches</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">Feed Rate / Override Switches</para>
+    </header>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="2" colcount="2" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td colspan="2" style="width:2%; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text styleclass="" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">Handle Feed Switch </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:25%; height:10px;">
+          <para styleclass="Normal" style="text-align:center;"><image src="NC switches_50.jpg" scale="4.00%" width="75" height="73" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; width:75%; height:35px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">This rotary switch is used to specify the feed per pulse in Handle mode. (Refer to </text><link displaytype="text" defaultstyle="false" type="topiclink" href="11_3-Handle-Feed" styleclass="" style="font-family:Arial; font-size:10pt; color:#0000ff;">11.3 Handle Feed</link><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">)</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="6" colcount="3" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td colspan="3" style="width:2%; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text styleclass="" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">Rapid Traverse Override Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:25%; height:13px;">
+          <para styleclass="Normal" style="text-align:center;"><image src="NC switches_51.jpg" scale="4.00%" width="74" height="74" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:top; width:2%; height:30px; border-top:none; border-right:none; border-bottom:none;">
+          <para styleclass="Normal" style="text-align:center; margin-top:5px; margin-right:2px; margin-left:2px;"><image src="NC switches_1.jpg" scale="5.06%" width="24" height="24" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; height:30px; border-top:none; border-bottom:none; border-left:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:19px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Reference position return is performed at the rapid feed override (0 - 100%) rate specified by NC parameter No. 01428 (Reference Position Speed Setting function) when the reference position has yet to be established after motor replacement or another such repair. When the feed rate has not been set by the NC parameter, it is fixed at approximately 4 m/min.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:2%; height:30px; border-top:none; border-right:none;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-right:2px; margin-left:2px;"><image src="NC switches_2.jpg" scale="5.06%" width="22" height="23" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; height:30px; border-top:none; border-left:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">The Rapid Traverse Limit function can be used to limit the Rapid feed rate to 25 % (standard) during automatic and manual operation. This function can be enabled / disabled with M172 and on the Function screen. When this function is enabled, the background color of the</text><text styleclass="" style="font-family:Arial; font-size:10pt; color:#ff0000;">&#32;</text><image src="Rapid Traverse Override Switch_1.png" scale="100.00%" styleclass="Image Caption"></image><text styleclass="" style="font-family:Arial; font-size:10pt; color:#ff0000;">&#32;</text><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Machine Condition lamp on the screen is displayed in yellow.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td colspan="3" style="width:2%; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text styleclass="" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">Jog Feed and Cutting Feed Rate Override Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; height:15px;">
+          <para styleclass="Normal" style="text-align:center;"><image src="NC switches_52.jpg" scale="4.00%" width="80" height="76" styleclass="Image Caption"></image></para>
+        </td>
+        <td colspan="2" style="height:30px; border-bottom:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Jog Feed (Inner Scale)</text></para>
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"></para>
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">This rotary switch is used to specify the Jog feed rate. It is valid in the following cases:</text></para>
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">When the Jog mode is selected.</text></para>
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:3px; margin-bottom:10px; margin-left:3px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">When the Dry Run mode is ON during automatic operation.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="2" style="height:30px;">
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">Cutting Feed Rate Override (Outer Scale)</text></para>
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"></para>
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">This rotary switch applies an override to the specified cutting feed rate during automatic operation. This switch, however, is invalid when the Dry Run mode is selected. At this time, the Jog feed rate switch is valid instead. During a G84 Tapping Cycle and M49 Override Cancel, the feed rate is fixed at 100 %. When M132 is specified, the override rate is limited to 100 % or less. Any override value exceeding 100 % is invalid.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

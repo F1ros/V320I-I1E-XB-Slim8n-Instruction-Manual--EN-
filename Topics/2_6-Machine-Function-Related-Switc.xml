@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.6 Machine Function Related Switches</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">Machine Function Related Switches</para>
+    </header>
+    <para styleclass="Normal">The following functions can be controlled on the Function Screen.</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="2" colcount="2" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td colspan="2" style="width:2%; height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[ECO] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:30%; height:10px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:6px; margin-bottom:6px;"><image src="NC switches_30.jpg" scale="4.00%" width="74" height="74" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; height:35px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">When this switch is turned ON, it switches OFF all unnecessary power supply that is not required for running the operation. This helps to save unnecessary power supply to the machine when not needed.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="3" colcount="3" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td colspan="3" style="height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[SG DOOR UNLOCK] Switch</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:30%; height:6px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><image src="NC switches_31.jpg" scale="4.00%" width="77" height="77" styleclass="Image Caption"></image></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; height:30px; border-bottom:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">This switch unlocks the doors of the Splash Guard for the operator to enter the machining chamber. During operation the doors are automatically locked. (Refer to </text><link displaytype="text" defaultstyle="false" type="topiclink" href="8_1-Opening-_-Closing-Operator-Doo" style="font-size:10pt; color:#0000ff;">8.1 Opening / Closing Operator Door</link><text style="font-size:10pt;">)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:5%; height:30px; border-top:none; border-right:none;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><image src="NC switches_1.jpg" scale="5.00%" width="24" height="24" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; width:439px; border-top:none; border-left:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">Ensure that it is safe to proceed and Spindle, axes and coolant are deactivated before releasing the door lock.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="3" colcount="3" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td colspan="3" style="height:26px; background-color:#dddddd;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-weight:bold;">[AUTO DOOR OPEN/CLOSE] Switch </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:30%; height:6px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><image src="NC switches_31 - open.jpg" scale="3.84%" width="74" height="74" styleclass="Image Caption"></image><text styleclass="Image Caption">   </text><image src="NC switches_31 - close.jpg" scale="3.84%" width="74" height="74" styleclass="Image Caption"></image></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; height:30px; border-bottom:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">Press this button to Open/Close the Auto Door in Manual mode. When the button is activate the button lamp will lights up. Applicable in machine with Auto Door option.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:5%; height:30px; border-top:none; border-right:none;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><image src="NC switches_1.jpg" scale="5.00%" width="24" height="24" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; width:439px; border-top:none; border-left:none;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">Ensure that it is safe to proceed and Spindle, axes and coolant are deactivated before Open the door.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>
